@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WGFileDemixionKit_Example' do
+  pod 'WGFileDemixionKit', :path => '../'
+
+  target 'WGFileDemixionKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
