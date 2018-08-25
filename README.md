@@ -12,7 +12,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 在pod之前，需要在podfile最上方添加下方三句代码
 
 source 'https://github.com/wgModularization/WGModulSpecs.git'
+
 source 'git@gitlab.317hu.com:HuModularizationLibrary/HuModularizationSpecs.git'
+
 source 'https://github.com/CocoaPods/Specs.git'
 
 ## Requirements
