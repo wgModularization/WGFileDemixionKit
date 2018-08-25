@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11E6AE21B6BB5CC743F72C3F /* libPods-WGFileDemixionKit_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F7B3AEB5252BC2423118FD /* libPods-WGFileDemixionKit_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,10 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		70A2FD20318B177DFB11617E /* libPods-WGFileDemixionKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B21EE36185A6053A97D1E9DF /* libPods-WGFileDemixionKit_Example.a */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7D1604A25E4B1F4FFBB25C37 /* Pods_WGFileDemixionKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFF167C8B54F917FA4883DD6 /* Pods_WGFileDemixionKit_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		AB4D2AA271B6C3BC845A24B5 /* Pods_WGFileDemixionKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63F991ED161AC782769A474 /* Pods_WGFileDemixionKit_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11F7B3AEB5252BC2423118FD /* libPods-WGFileDemixionKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WGFileDemixionKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2309E11A73A4D991E48231E4 /* Pods-WGFileDemixionKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGFileDemixionKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WGFileDemixionKit_Tests/Pods-WGFileDemixionKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		384B9EB34B3D96A41D67D9B4 /* WGFileDemixionKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WGFileDemixionKit.podspec; path = ../WGFileDemixionKit.podspec; sourceTree = "<group>"; };
+		384B9EB34B3D96A41D67D9B4 /* WGFileDemixionKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WGFileDemixionKit.podspec; path = ../WGFileDemixionKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4B88CD221A83BE2A202FD714 /* Pods-WGFileDemixionKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGFileDemixionKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGFileDemixionKit_Tests/Pods-WGFileDemixionKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4E5DE7474B7AA157E09AABA3 /* Pods-WGFileDemixionKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGFileDemixionKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WGFileDemixionKit_Example/Pods-WGFileDemixionKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WGFileDemixionKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGFileDemixionKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,11 +63,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		894ACC0C7AE0BA5F700D9E3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		894ACC0C7AE0BA5F700D9E3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8B1FB8C811D2E250FB07A682 /* Pods-WGFileDemixionKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGFileDemixionKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGFileDemixionKit_Example/Pods-WGFileDemixionKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A3D6ED06228BFED733D56615 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C63F991ED161AC782769A474 /* Pods_WGFileDemixionKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WGFileDemixionKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFF167C8B54F917FA4883DD6 /* Pods_WGFileDemixionKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WGFileDemixionKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D6ED06228BFED733D56615 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B21EE36185A6053A97D1E9DF /* libPods-WGFileDemixionKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WGFileDemixionKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				AB4D2AA271B6C3BC845A24B5 /* Pods_WGFileDemixionKit_Example.framework in Frameworks */,
+				70A2FD20318B177DFB11617E /* libPods-WGFileDemixionKit_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				7D1604A25E4B1F4FFBB25C37 /* Pods_WGFileDemixionKit_Tests.framework in Frameworks */,
+				11E6AE21B6BB5CC743F72C3F /* libPods-WGFileDemixionKit_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C63F991ED161AC782769A474 /* Pods_WGFileDemixionKit_Example.framework */,
-				CFF167C8B54F917FA4883DD6 /* Pods_WGFileDemixionKit_Tests.framework */,
+				B21EE36185A6053A97D1E9DF /* libPods-WGFileDemixionKit_Example.a */,
+				11F7B3AEB5252BC2423118FD /* libPods-WGFileDemixionKit_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				8F0AE913BD848FC3F2DCB624 /* [CP] Embed Pods Frameworks */,
+				710281C321C92F8872BD77D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -312,22 +312,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8F0AE913BD848FC3F2DCB624 /* [CP] Embed Pods Frameworks */ = {
+		710281C321C92F8872BD77D9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-WGFileDemixionKit_Example/Pods-WGFileDemixionKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/WGFileDemixionKit/WGFileDemixionKit.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-WGFileDemixionKit_Example/Pods-WGFileDemixionKit_Example-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SSKeychain/Support/SSKeychain.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WGFileDemixionKit.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SSKeychain.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WGFileDemixionKit_Example/Pods-WGFileDemixionKit_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WGFileDemixionKit_Example/Pods-WGFileDemixionKit_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E265FBD7FB07516934005396 /* [CP] Check Pods Manifest.lock */ = {

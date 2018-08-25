@@ -1,4 +1,5 @@
-use_frameworks!
+source 'git@gitlab.317hu.com:HuModularizationLibrary/HuModularizationSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'WGFileDemixionKit_Example' do
   pod 'WGFileDemixionKit', :path => '../'

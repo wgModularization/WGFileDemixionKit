@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WGFileDemixionKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WGFileDemixionKit.'
+  s.summary          = '目录分层'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,42 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/wanggang1128/WGFileDemixionKit'
+  s.homepage         = 'https://github.com/wgModularization/WGFileDemixionKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wanggang1128' => '978159546@qq.com' }
-  s.source           = { :git => 'https://github.com/wanggang1128/WGFileDemixionKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wgModularization/WGFileDemixionKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'WGFileDemixionKit/Classes/**/*'
+#s.source_files = 'WGFileDemixionKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'WGFileDemixionKit' => ['WGFileDemixionKit/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'WGFileDemixionKit/Classes/*'
+  s.public_header_files = 'WGFileDemixionKit/Classes/HuCommonUIHeader.h'
+  s.prefix_header_contents = '#import <HuConfigsKit/HuConfigsHeader.h>','#import <HuCategoryKit/HuCategoryHead.h>','#import <HuUtilsKit/HuUtilsHeader.h>'
+  
+  #-----------------文件分级---------------------#
+  s.subspec 'HuTableViewExtend' do |ss|
+      ss.source_files = 'WGFileDemixionKit/Classes/HuTableViewExtend/**/*'
+  end
+  
+  s.subspec 'Utils' do |ss|
+      ss.source_files = 'WGFileDemixionKit/Classes/Utils/*'
+  end
+  
+  s.subspec 'ViewControllers' do |ss|
+      ss.source_files = 'WGFileDemixionKit/Classes/ViewControllers/*'
+  end
+  
+  s.subspec 'Views' do |ss|
+      ss.source_files = 'WGFileDemixionKit/Classes/Views/*'
+  end
+  
+  #-----------------文件分级---------------------#
+  
+  s.dependency 'HuConfigsKit'
+  s.dependency 'HuCategoryKit'
+  s.dependency 'HuUtilsKit'
+  s.dependency 'MJRefresh', '~> 3.1.15'
 end

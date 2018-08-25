@@ -1,0 +1,6 @@
+framework module WGFileDemixionKit {
+  umbrella header "WGFileDemixionKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

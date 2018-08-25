@@ -1,0 +1,6 @@
+framework module Pods_WGFileDemixionKit_Example {
+  umbrella header "Pods-WGFileDemixionKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

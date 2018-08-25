@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/HuCategoryKit" "${PODS_ROOT}/Headers/Public/HuConfigsKit" "${PODS_ROOT}/Headers/Public/HuUtilsKit" "${PODS_ROOT}/Headers/Public/MJRefresh" "${PODS_ROOT}/Headers/Public/SSKeychain" "${PODS_ROOT}/Headers/Public/WGFileDemixionKit"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/HuCategoryKit" "${PODS_CONFIGURATION_BUILD_DIR}/HuConfigsKit" "${PODS_CONFIGURATION_BUILD_DIR}/HuUtilsKit" "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh" "${PODS_CONFIGURATION_BUILD_DIR}/SSKeychain" "${PODS_CONFIGURATION_BUILD_DIR}/WGFileDemixionKit"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/HuCategoryKit" -isystem "${PODS_ROOT}/Headers/Public/HuConfigsKit" -isystem "${PODS_ROOT}/Headers/Public/HuUtilsKit" -isystem "${PODS_ROOT}/Headers/Public/MJRefresh" -isystem "${PODS_ROOT}/Headers/Public/SSKeychain" -isystem "${PODS_ROOT}/Headers/Public/WGFileDemixionKit"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"HuCategoryKit" -l"HuConfigsKit" -l"HuUtilsKit" -l"MJRefresh" -l"SSKeychain" -l"WGFileDemixionKit" -framework "Foundation" -framework "Security"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

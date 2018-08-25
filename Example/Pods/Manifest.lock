@@ -1,0 +1,75 @@
+PODS:
+  - HuCategoryKit (1.1.17):
+    - HuCategoryKit/Category (= 1.1.17)
+  - HuCategoryKit/Category (1.1.17)
+  - HuConfigsKit (1.1.14):
+    - HuConfigsKit/HuConfigs (= 1.1.14)
+  - HuConfigsKit/HuConfigs (1.1.14)
+  - HuUtilsKit (1.0.5):
+    - HuCategoryKit
+    - HuConfigsKit
+    - HuUtilsKit/HuUtils (= 1.0.5)
+    - SSKeychain
+  - HuUtilsKit/HuUtils (1.0.5):
+    - HuCategoryKit
+    - HuConfigsKit
+    - SSKeychain
+  - MJRefresh (3.1.15.3)
+  - SSKeychain (1.4.1)
+  - WGFileDemixionKit (0.1.0):
+    - HuCategoryKit
+    - HuConfigsKit
+    - HuUtilsKit
+    - MJRefresh (~> 3.1.15)
+    - WGFileDemixionKit/HuTableViewExtend (= 0.1.0)
+    - WGFileDemixionKit/Utils (= 0.1.0)
+    - WGFileDemixionKit/ViewControllers (= 0.1.0)
+    - WGFileDemixionKit/Views (= 0.1.0)
+  - WGFileDemixionKit/HuTableViewExtend (0.1.0):
+    - HuCategoryKit
+    - HuConfigsKit
+    - HuUtilsKit
+    - MJRefresh (~> 3.1.15)
+  - WGFileDemixionKit/Utils (0.1.0):
+    - HuCategoryKit
+    - HuConfigsKit
+    - HuUtilsKit
+    - MJRefresh (~> 3.1.15)
+  - WGFileDemixionKit/ViewControllers (0.1.0):
+    - HuCategoryKit
+    - HuConfigsKit
+    - HuUtilsKit
+    - MJRefresh (~> 3.1.15)
+  - WGFileDemixionKit/Views (0.1.0):
+    - HuCategoryKit
+    - HuConfigsKit
+    - HuUtilsKit
+    - MJRefresh (~> 3.1.15)
+
+DEPENDENCIES:
+  - WGFileDemixionKit (from `../`)
+
+SPEC REPOS:
+  "git@gitlab.317hu.com:HuModularizationLibrary/HuModularizationSpecs.git":
+    - HuCategoryKit
+    - HuConfigsKit
+    - HuUtilsKit
+  https://github.com/cocoapods/specs.git:
+    - MJRefresh
+    - SSKeychain
+
+EXTERNAL SOURCES:
+  WGFileDemixionKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HuCategoryKit: 6ec046e2dbbd7ddd224461719342bec962b341d5
+  HuConfigsKit: 1119442dfe98b7fb70e62f705bf251637f720304
+  HuUtilsKit: 1f2a2ff73cb7df19b054a48aaeb98e29688a5a70
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
+  WGFileDemixionKit: 4cddc4567c967acf2fdb2c1a5d4cc8489867ed4e
+
+PODFILE CHECKSUM: fe3d489b7f1850998e6f1cd8caab22ef8e86ea8f
+
+COCOAPODS: 1.5.3

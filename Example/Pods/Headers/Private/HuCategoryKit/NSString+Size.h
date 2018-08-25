@@ -1,0 +1,1 @@
+../../../HuCategoryKit/HuCategoryKit/Classes/Category/NSString+Size.h

@@ -1,0 +1,60 @@
+{
+  "name": "WGFileDemixionKit",
+  "version": "0.1.0",
+  "summary": "目录分层",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wgModularization/WGFileDemixionKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wanggang1128": "978159546@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wgModularization/WGFileDemixionKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WGFileDemixionKit/Classes/*",
+  "public_header_files": "WGFileDemixionKit/Classes/HuCommonUIHeader.h",
+  "prefix_header_contents": [
+    "#import <HuConfigsKit/HuConfigsHeader.h>",
+    "#import <HuCategoryKit/HuCategoryHead.h>",
+    "#import <HuUtilsKit/HuUtilsHeader.h>"
+  ],
+  "dependencies": {
+    "HuConfigsKit": [
+
+    ],
+    "HuCategoryKit": [
+
+    ],
+    "HuUtilsKit": [
+
+    ],
+    "MJRefresh": [
+      "~> 3.1.15"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "HuTableViewExtend",
+      "source_files": "WGFileDemixionKit/Classes/HuTableViewExtend/**/*"
+    },
+    {
+      "name": "Utils",
+      "source_files": "WGFileDemixionKit/Classes/Utils/*"
+    },
+    {
+      "name": "ViewControllers",
+      "source_files": "WGFileDemixionKit/Classes/ViewControllers/*"
+    },
+    {
+      "name": "Views",
+      "source_files": "WGFileDemixionKit/Classes/Views/*"
+    }
+  ]
+}
