@@ -62,7 +62,7 @@ SPEC CHECKSUMS:
   HuUtilsKit: 1f2a2ff73cb7df19b054a48aaeb98e29688a5a70
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
-  WGFileDemixionKit: 96e0fb9a2df2cdd3ee00f7a691405a18a11fad61
+  WGFileDemixionKit: bf3e84d5e6cd7f3ac7190b64ed0c804ea2f67f62
 
 PODFILE CHECKSUM: fe3d489b7f1850998e6f1cd8caab22ef8e86ea8f
 

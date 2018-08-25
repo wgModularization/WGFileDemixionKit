@@ -10,3 +10,6 @@
 #endif
 #endif
 
+#import <HuConfigsKit/HuConfigsHeader.h>
+#import <HuCategoryKit/HuCategoryHead.h>
+#import <HuUtilsKit/HuUtilsHeader.h>

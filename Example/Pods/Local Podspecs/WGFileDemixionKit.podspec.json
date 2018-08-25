@@ -20,6 +20,11 @@
   },
   "source_files": "WGFileDemixionKit/Classes/*",
   "public_header_files": "WGFileDemixionKit/Classes/HuCommonUIHeader.h",
+  "prefix_header_contents": [
+    "#import <HuConfigsKit/HuConfigsHeader.h>",
+    "#import <HuCategoryKit/HuCategoryHead.h>",
+    "#import <HuUtilsKit/HuUtilsHeader.h>"
+  ],
   "dependencies": {
     "HuConfigsKit": [
 
