@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WGFileDemixionKit'
-  s.version          = '0.1.0'
-  s.summary          = '目录分层'
+  s.version          = '0.1.1'
+  s.summary          = '目录分层2次'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -34,23 +34,19 @@ TODO: Add long description of the pod here.
   
   s.source_files = 'WGFileDemixionKit/Classes/*'
   s.public_header_files = 'WGFileDemixionKit/Classes/HuCommonUIHeader.h'
-  s.prefix_header_contents = '#import <HuConfigsKit/HuConfigsHeader.h>','#import <HuCategoryKit/HuCategoryHead.h>','#import <HuUtilsKit/HuUtilsHeader.h>'
+  #s.prefix_header_contents = '#import <HuConfigsKit/HuConfigsHeader.h>','#import <HuCategoryKit/HuCategoryHead.h>','#import <HuUtilsKit/HuUtilsHeader.h>'
   
   #-----------------文件分级---------------------#
-  s.subspec 'HuTableViewExtend' do |ss|
-      ss.source_files = 'WGFileDemixionKit/Classes/HuTableViewExtend/**/*'
+  s.subspec 'Base64' do |ss|
+      ss.source_files = 'WGFileDemixionKit/Classes/Base64/*'
   end
   
-  s.subspec 'Utils' do |ss|
-      ss.source_files = 'WGFileDemixionKit/Classes/Utils/*'
+  s.subspec 'MD5' do |ss|
+      ss.source_files = 'WGFileDemixionKit/Classes/MD5/**/*'
   end
   
-  s.subspec 'ViewControllers' do |ss|
-      ss.source_files = 'WGFileDemixionKit/Classes/ViewControllers/*'
-  end
-  
-  s.subspec 'Views' do |ss|
-      ss.source_files = 'WGFileDemixionKit/Classes/Views/*'
+  s.subspec 'YYCache' do |ss|
+      ss.source_files = 'WGFileDemixionKit/Classes/YYCache/*'
   end
   
   #-----------------文件分级---------------------#

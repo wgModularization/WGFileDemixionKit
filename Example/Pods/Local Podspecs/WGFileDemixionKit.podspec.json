@@ -1,7 +1,7 @@
 {
   "name": "WGFileDemixionKit",
-  "version": "0.1.0",
-  "summary": "目录分层",
+  "version": "0.1.1",
+  "summary": "目录分层2次",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wgModularization/WGFileDemixionKit",
   "license": {
@@ -13,18 +13,13 @@
   },
   "source": {
     "git": "https://github.com/wgModularization/WGFileDemixionKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "WGFileDemixionKit/Classes/*",
   "public_header_files": "WGFileDemixionKit/Classes/HuCommonUIHeader.h",
-  "prefix_header_contents": [
-    "#import <HuConfigsKit/HuConfigsHeader.h>",
-    "#import <HuCategoryKit/HuCategoryHead.h>",
-    "#import <HuUtilsKit/HuUtilsHeader.h>"
-  ],
   "dependencies": {
     "HuConfigsKit": [
 
@@ -41,20 +36,16 @@
   },
   "subspecs": [
     {
-      "name": "HuTableViewExtend",
-      "source_files": "WGFileDemixionKit/Classes/HuTableViewExtend/**/*"
+      "name": "Base64",
+      "source_files": "WGFileDemixionKit/Classes/Base64/*"
     },
     {
-      "name": "Utils",
-      "source_files": "WGFileDemixionKit/Classes/Utils/*"
+      "name": "MD5",
+      "source_files": "WGFileDemixionKit/Classes/MD5/**/*"
     },
     {
-      "name": "ViewControllers",
-      "source_files": "WGFileDemixionKit/Classes/ViewControllers/*"
-    },
-    {
-      "name": "Views",
-      "source_files": "WGFileDemixionKit/Classes/Views/*"
+      "name": "YYCache",
+      "source_files": "WGFileDemixionKit/Classes/YYCache/*"
     }
   ]
 }
